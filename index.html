@@ -66,14 +66,16 @@ body {
 
 /* Fake image */
 .fakeimg1 {
+  background-image: url("picture/nodejs.jpeg");
   background-color: #aaa;
-  width: 100%;
+  height: 200px;
   padding: 20px;
 }
 
 .fakeimg2 {
+  background-image: url("picture/nodejs.jpeg");
   background-color: #aaa;
-  width: 100%;
+  height: 200px;
   padding: 20px;
 }
 
@@ -114,19 +116,27 @@ body {
     width: 100%;
   }
 }
+
+.centerGreen{
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>Supak Home</h1>
+  <h1>Supak Home - บ้าน ของ สุภัค</h1>
   <p>ยินดีตอนรับ สู่บ้านของสุภัค</p>
 </div>
 
 <div class="topnav">
   <a href="#">Home - หน้าหลัก</a>
-  <a href="#">Lab - ฝึกทำ</a>
-  <a href="#" style="float:right">Link</a>
+  <a href="#">Login - เข้าสู่ระบบ (ยังไม่พร้อมใช้งาน)</a>
+  <a href="#" style="float:right">Development phase - ช่วงกำลังพัฒนา</a>
 </div>
 
 <div class="row">
@@ -134,9 +144,11 @@ body {
     <div class="card">
       <h2>ข่าวประกาศ</h2>
       <h5>อัพเดทเมื่อ, มกราคม 29, 2019</h5>
-      <div class="fakeimg1" style="height:200px;">Image</div>
       <p>เพิ่ม Lab 1 หัวข้อ</p>
-      <p>ฝึกเขียน JavaScript ด้วย Node.js 
+      <div class="centerGreen">
+        <img src="picture/nodejs.jpeg" alt="NodeJS" width="100%" style="vertical-align:middle"> 
+      </div>
+      <p><h2><a href="https://drive.google.com/open?id=1DpNVyAoIzwUmjDohyk7H8GTt8TQGwvZQ" target="blank">ฝึกเขียน JavaScript ด้วย Node.js</a></h2> 
           <br />&emsp;- การติดตั้ง Node.js
           <br />&emsp;- การใช้งาน Node.js สำหรับ เรียกดู Javascript ผ่าน console </p>
     </div>
@@ -145,10 +157,12 @@ body {
   <div class="rightcolumn">
     <div class="card">
       <h2>เกี่ยวกับฉัน</h2>
-      <div class="fakeimg2" style="height:100px;">Image</div>
+      <div class="centerGreen">
+        <img src="picture/myprofile.gif" alt="NodeJS" width="100%" style="vertical-align:middle"> 
+      </div>
       <p><br />&emsp;- Name : Mr.Supak Pukdam
-          <br />&emsp;- Facebook : Jack Supak
-        <br />&emsp;- Youtub : Supak Pukdam</p>
+          <br />&emsp;<a href="https://www.facebook.com/jackultimate" target="blank">- Facebook : Jack Supak</a>
+        <br />&emsp;<a href="https://www.youtube.com/channel/UCR505_ijXQxfbuXQDyqahtQ?view_as=subscriber" target="blank">- Youtube : Supak Pukdam</a></p>
     </div>
     
     
